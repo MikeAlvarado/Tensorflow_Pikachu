@@ -7,7 +7,7 @@ Example project using Tensorflow Lite. Built from:
   
   
   
-  ## How to add the project to Android-Studio?  
+## How to add the project to Android-Studio?  
   
 Add the directory *tensorflow/tensorflow/examples/android*
   
