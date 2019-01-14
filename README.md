@@ -1,2 +1,8 @@
 # Tensorflow-Pikachu
-Example project using Tensorflow Lite. Built from: github.com/tensorflow/tensorflow &amp;&amp; github.com/juandes/pikachu-detection
+Example project using Tensorflow Lite. Built from:  
+  
+
+github.com/tensorflow/tensorflow  
+github.com/juandes/pikachu-detection
+
+
