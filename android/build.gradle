@@ -29,7 +29,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.3.0'
         classpath 'org.apache.httpcomponents:httpclient:4.5.4'
     }
 }
@@ -79,8 +79,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '26.0.2'
-
     if (nativeBuildSystem == 'cmake') {
         defaultConfig {
             applicationId = 'org.tensorflow.demo'
@@ -101,11 +99,9 @@ android {
             }
         }
     }
-
     lintOptions {
         abortOnError false
     }
-
     sourceSets {
         main {
             if (nativeBuildSystem == 'bazel' || nativeBuildSystem == 'makefile') {
@@ -136,6 +132,13 @@ android {
 
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
+    }
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionName '1'
+    }
+    productFlavors {
     }
 }
 
