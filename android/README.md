@@ -1,3 +1,10 @@
+# App  
+
+App Modules were separated and removed from the files and manifest, if you want to install all the modules of the default Tensorflow Project, refer to the information below and to the Tensorflow documentation  
+
+  
+   
+  
 # TensorFlow Android Camera Demo
 
 This folder contains an example application utilizing TensorFlow for Android
