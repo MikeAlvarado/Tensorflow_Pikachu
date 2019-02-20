@@ -33,8 +33,6 @@ import android.view.Display;
 import android.view.Surface;
 import android.widget.Toast;
 
-import junit.framework.Test;
-
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;

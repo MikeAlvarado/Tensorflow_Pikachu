@@ -29,7 +29,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.android.tools.build:gradle:3.3.1'
         classpath 'org.apache.httpcomponents:httpclient:4.5.4'
     }
 }
@@ -78,12 +78,12 @@ project.ext.TMP_DIR   = project.buildDir.toString() + '/downloads'
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 28
     if (nativeBuildSystem == 'cmake') {
         defaultConfig {
             applicationId = 'org.tensorflow.demo'
             minSdkVersion 21
-            targetSdkVersion 23
+            targetSdkVersion 28
             ndk {
                 abiFilters "${cpuType}"
             }

@@ -17,5 +17,5 @@
 
 <resources>
     <string name="app_name">Pikachu Demo</string>
-    <string name="activity_name_detection">TF Pikachu</string>
+    <string name="activity_name_detection">Pikachu Detect</string>
 </resources>
