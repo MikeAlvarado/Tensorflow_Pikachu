@@ -17,5 +17,3 @@ If you want to add your own tflite model and labels, do so in /android/assets an
 
 #### Information  
 Feel free to add questions, send me a message.      
-
-P.S. :By no means I am an expert in TFLite, I'm just re-using the tensorflow default project and pikachu model.
